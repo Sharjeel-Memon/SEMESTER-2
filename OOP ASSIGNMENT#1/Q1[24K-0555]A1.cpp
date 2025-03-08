@@ -59,7 +59,7 @@ public:
     
     Mentor(string name, int id, int maxL) : mentorName(name), mentorID(id), maxLearners(maxL), learnerCount(0), expertiseCount(0) {
         assignedLearners = new Student*[maxLearners];
-        sportsExpertise = new string[10]; // Assuming max 10 sports expertise
+        sportsExpertise = new string[10];
     }
     ~Mentor() {
         delete[] assignedLearners;
@@ -81,7 +81,7 @@ public:
     Mentor* assignedMentor;
     
     Student(string name, int id) : studentName(name), studentID(id), assignedMentor(nullptr), interestCount(0) {
-        sportsInterests = new string[10]; // Assuming max 10 sports interests
+        sportsInterests = new string[10];
     }
     ~Student() {
         delete[] sportsInterests;
