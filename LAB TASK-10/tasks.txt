@@ -1,0 +1,3 @@
+1,Write project report,false
+2,Review pull requests,true
+3,Prepare presentation slides,false

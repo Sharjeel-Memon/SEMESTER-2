@@ -1,0 +1,20 @@
+Application started
+Loading configuration
+Connecting to database
+Database connection established
+Processing user request #1
+Processing user request #2
+Processing user request #3
+An error occurred: invalid input
+Error handled, continuing
+Application shutting down
+Application started
+Loading configuration
+Connecting to database
+Database connection established
+Processing user request #1
+Processing user request #2
+Processing user request #3
+An error occurred: invalid input
+Error handled, continuing
+Application shutting down
